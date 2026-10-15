@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Icone adaptative Android : le launcher dessine le calque `background` puis
+  rogne `foreground` selon la forme du masque (rond, carre arrondi, goutte).
+  Le calque avant respecte la marge de securite centrale imposee par Android.
+-->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/ic_launcher_background" />
+    <foreground android:drawable="@mipmap/ic_launcher_foreground" />
+    <monochrome android:drawable="@mipmap/ic_launcher_foreground" />
+</adaptive-icon>
